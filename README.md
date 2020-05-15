@@ -20,6 +20,7 @@ const config = {
     region: 'eu-west-1',
     accessKeyId: 'ANEIFNENI4324N2NIEXAMPLE',
     secretAccessKey: 'cms21uMxçduyUxYjeg20+DEkgDxe6veFosBT7eUgEXAMPLE',
+    tagging: "name=value" /* optional fror adding tags /*
     s3Url: 'https://my-s3-url.com/', /* optional */
 }
 
