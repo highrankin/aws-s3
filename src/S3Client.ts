@@ -30,7 +30,7 @@ class S3Client {
       );
       fd.append("X-Amz-Algorithm", "AWS4-HMAC-SHA256");
       fd.append("X-Amz-Date", xAmzDate);
-      fd.append("x-amz-meta-tag", "");
+      fd.append("x-amz-meta-tag", config.tagging);
       fd.append("Policy", Policy.getPolicy(this.config));
       fd.append(
           "X-Amz-Signature",
